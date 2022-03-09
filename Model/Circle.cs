@@ -41,12 +41,12 @@ namespace oop.Model
         /// <summary>
         /// A kör kerülete
         /// </summary>
-        public double District
+        public double Perimeter
         {
             get
             {
-                double district = 2 * radius * Math.PI;
-                return district;
+                double perimeter = 2 * radius * Math.PI;
+                return perimeter;
             }
         }
 
@@ -68,9 +68,9 @@ namespace oop.Model
         /// <returns>Karakterlánc területtel, kerülettel</returns>
         public override string ToString()
         {
-            double roundedDistrict = Math.Round(District, 2);
+            double roundedPerimeter = Math.Round(Perimeter, 2);
             double roundedArea = Math.Round(Area, 2);
-            string output = radius + " sugarú kör területe " + roundedArea + ", kerülete " + roundedDistrict;
+            string output = radius + " sugarú kör területe " + roundedArea + ", kerülete " + roundedPerimeter;
             return output;
         }
     }
