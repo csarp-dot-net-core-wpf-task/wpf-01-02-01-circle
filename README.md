@@ -6,8 +6,8 @@
 
 2. Az alkalmazásban a következő funkciók működjenek:
   - Kilépés a programból
-  - Helyes adat esetén a kör területének és kerületének megjelenítése a megfelelő helyen méter és négyzetméter mértékegységben
-  - Ha a felhasználó számmá nem konvertálható adatot adott meg, akkor pl. TextBox felett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése
-  - Ha a felhasználó nem megfelelő sugarat ad meg, akkor pl. TextBox felett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése
+  - Helyes adat esetén a kör területének és kerületének megjelenítése a megfelelő helyen méter és négyzetméter mértékegységben (MVVM alaklmazás esetén a gomb nem kell)
+  - Ha a felhasználó számmá nem konvertálható adatot adott meg, akkor pl. TextBox mellett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése
+  - Ha a felhasználó nem megfelelő sugarat ad meg, akkor pl. TextBox felett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése vagy mvvm alkalmazás esetén a TextBox-ban az adat automatikusan a helyes lesz 
   - A hibaüzenetek tünjenek el, ha a felhasználó módosítja a sugár értékét
 
